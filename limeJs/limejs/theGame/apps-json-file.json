@@ -1,0 +1,501 @@
+{
+    "app1": {
+
+
+        "name": "Fortune Cookies",
+        "url": "https://fbcdn-photos-g-a.akamaihd.net/hphotos-ak-prn1/851557_609482729061727_78833414_n.gif",
+        "required_permissions": {
+            "p1": {
+                "name": "user_events",
+                "size": 1,
+                "description": "list of events you are attending"
+            },
+            "p2": {
+                "name": "user_email",
+                "size": 1,
+                "description": "your primary  email  address"
+            },
+            "p3": {
+                "name": "user_birthday",
+                "size": 1,
+                "description": "your birthday"
+            },
+            "p4": {
+                "name": "user_likes",
+                "size": 1,
+                "description": "list of all of  the pages you have liked"
+            },
+            "p5": {
+                "name": "user_location",
+                "size": 2,
+                "description": "your current city as the location property"
+            },
+            "p6": {
+                "name": "user_photos",
+                "size": 2,
+                "description": "the photos you have uploaded, and photos  you have been tagged in"
+            },
+            "p7": {
+                "name": "user_relationships",
+                "size": 1,
+                "description": "your family and personal relationships and relationship status"
+            },
+            "p8": {
+                "name": "user_status",
+                "size": 2,
+                "description": "your status  messages"
+            },
+            "p9": {
+                "name": "user_checkins",
+                "size": 2,
+                "description": "read access to your check-ins"
+            },
+            "p10": {
+                "name": "friends_birthday",
+                "size": 1,
+                "description": "your friends birthday"
+            },
+            "p11": {
+                "name": "friends_likes",
+                "size": 1,
+                "description": "list of all of the pages your friends have liked"
+            },
+            "p12": {
+                "name": "friends_location",
+                "size": 2,
+                "description": "your friends' current city as the location property"
+            },
+            "p13": {
+                "name": "friends_photos",
+                "size": 2,
+                "description": "your friends photos which you can see"
+            },
+            "p14": {
+                "name": "friends_status",
+                "size": 2,
+                "description": "your friends status messages which you can see"
+            },
+            "p15": {
+                "name": "friends_work_history",
+                "size": 1,
+                "description": "your friends work history which you can see"
+            },
+            "p16": {
+                "name": "friends_checkins",
+                "size": 2,
+                "description": "read access to your friends check-ins which you can see"
+            },
+            "p17": {
+                "name": "friends_events",
+                "size": 1,
+                "description": "access to the list of  events  your friends are attending"
+            }
+        },
+        "extended_permissions": {
+            "p1": {
+                "name": "read_stream",
+                "size": 2,
+                "description": "access all the posts in  your News Feed"
+            },
+            "p2": {
+                "name": "publish_actions",
+                "size": 2,
+                "description": "post content, comments, and likes to your stream and to the streams of your friends"
+            },
+            "p3": {
+                "name": "user_friendlists",
+                "size": 2,
+                "description": " friend lists you have created"
+            }
+        }
+    },
+
+    "app2": {
+
+
+        "name": "Schoolfeed",
+        "url": "http: //2.bp.blogspot.com/-kkxZSQQ2Ni8/UVGl5tb2CLI/AAAAAAAAAoA/LivufCXkTNY/s1600/schoolFeed.gif",
+        "required_permissions": {
+            "p1": {
+                "name": "user_photos",
+                "size": 2,
+                "description": "the photos you have uploaded, and photos you have been tagged in"
+            },
+            "p2": {
+                "name": "user_likes",
+                "size": 1,
+                "description": "list of all the pages you have liked"
+            },
+            "p3": {
+                "name": "user_email",
+                "size": 1,
+                "description": "your primary email address"
+            },
+            "p4": {
+                "name": "user_birthday",
+                "size": 1,
+                "description": "your birthday"
+            },
+            "p5": {
+                "name": "user_education_history",
+                "size": 1,
+                "description": "your education history"
+            },
+            "p6": {
+                "name": "user_hometown",
+                "size": 1,
+                "description": "your hometown"
+            },
+            "p7": {
+                "name": "user_location",
+                "size": 2,
+                "description": "your current city as the location property"
+            },
+            "p8": {
+                "name": "user_interests",
+                "size": 1,
+                "description": "your list of interests"
+            },
+            "p9": {
+                "name": "user_activities",
+                "size": 1,
+                "description": "your list of activities"
+            },
+            "p10": {
+                "name": "friends_education_history",
+                "size": 1,
+                "description": "your friends education history as the education property"
+            },
+            "p11": {
+                "name": "friends_birthday",
+                "size": 1,
+                "description": "your friends birthday"
+            },
+            "p12": {
+                "name": "friends_hometown",
+                "size": 1,
+                "description": "your friends hometown"
+            },
+            "p13": {
+                "name": "friends_photos",
+                "size": 2,
+                "description": "your friends photos which you can see"
+            }
+        },
+        "extended_permissions": {
+            "p1": {
+                "name": "read_stream",
+                "size": 2,
+                "description": "access all the posts in your News Feed"
+            },
+            "p2": {
+                "name": "publish_actions",
+                "size": 2,
+                "description": "post content, comments, and likes to your stream and to the streams of your friends"
+            },
+            "p3": {
+                "name": "user_friendlists",
+                "size": 2,
+                "description": " access any friend lists you have created"
+            }
+        }
+    },
+
+    "app3": {
+
+
+        "name": "Yearbook",
+        "url": " https://fbcdn-photos-h-a.akamaihd.net/hphotos-ak-prn1/851563_10151553438762878_1426360768_n.gif",
+        "required_permissions": {
+            "p1": {
+                "name": "user_email",
+                "size": 1,
+                "description": "your primary email address"
+            },
+            "p2": {
+                "name": "user_about_me",
+                "size": 1,
+                "description": "'AboutMe' section of your profile"
+            },
+            "p3": {
+                "name": "user_education_history",
+                "size": 1,
+                "description": "your education history"
+            },
+            "p4": {
+                "name": "user_work_history",
+                "size": 1,
+                "description": "your work history"
+            },
+            "p5": {
+                "name": "user_birthday",
+                "size": 1,
+                "description": "your birthday"
+            },
+            "p6": {
+                "name": "user_location",
+                "size": 2,
+                "description": "your current city as the location property"
+            },
+            "p7": {
+                "name": "user_photos",
+                "size": 2,
+                "description": "the photos you have uploaded, and photos you have been tagged in"
+            },
+            "p8": {
+                "name": "user_videos",
+                "size": 2,
+                "description": "the videos you have uploaded, and videos you have been tagged in"
+            },
+            "p9": {
+                "name": "friends_photos",
+                "size": 1,
+                "description": "your friends photos which you can see"
+            },
+            "p10": {
+                "name": "friends_videos",
+                "size": 2,
+                "description": "your friends videos which you can see"
+            },
+            "p11": {
+                "name": "friends_education_history",
+                "size": 1,
+                "description": "your friends education history as the education property"
+            }
+        },
+        "extended_permissions": {
+            "p1": {
+                "name": "publish_actions",
+                "size": 2,
+                "description": "post content, comments, and likes to your stream and to the streams of your friends"
+            }
+        }
+    },
+
+    "app4": {
+
+
+        "name": "They/Their/They're",
+        "url": "https://photos-a.xx.fbcdn.net/hphotos-prn1/851561_10151625045400987_1029956602_n.png",
+        "required_permissions": {
+            "p1": {
+                "name": "user_email",
+                "size": 1,
+                "description": "access your primary email address"
+            },
+            "p2": {
+                "name": "user_birthday",
+                "size": 1,
+                "description": "your birthday"
+            },
+            "p3": {
+                "name": "user_likes",
+                "size": 1,
+                "description": "list of all of the pages you have liked"
+            },
+            "p4": {
+                "name": "user_location",
+                "size": 2,
+                "description": "your current city as the location property"
+            },
+            "p5": {
+                "name": "user_photos",
+                "size": 2,
+                "description": "the photos you have uploaded, and photos you have been tagged in"
+            },
+            "p6": {
+                "name": "user_relationships",
+                "size": 2,
+                "description": "your family and personal relationships and relationship status"
+            },
+            "p7": {
+                "name": "user_status",
+                "size": 2,
+                "description": "your status messages"
+            },
+            "p8": {
+                "name": "user_checkins",
+                "size": 2,
+                "description": "read access to your check-ins"
+            },
+            "p9": {
+                "name": "friends_birthday",
+                "size": 1,
+                "description": "your friends birthday "
+            },
+            "p10": {
+                "name": "friends_likes",
+                "size": 1,
+                "description": "list of all the pages your friends have liked"
+            },
+            "p11": {
+                "name": "friends_location",
+                "size": 2,
+                "description": "your friends current city as the location property"
+            },
+            "p12": {
+                "name": "friends_photos",
+                "size": 2,
+                "description": "your friends photos which you can see"
+            },
+            "p13": {
+                "name": "friends_status",
+                "size": 2,
+                "description": "your friends status messages which you can see"
+            },
+            "p14": {
+                "name": "friends_work_history",
+                "size": 1,
+                "description": "your friends work history which you can see"
+            },
+            "p15": {
+                "name": "friends_checkins",
+                "size": 2,
+                "description": "read access to your friends check-ins which you can see"
+            },
+            "p16": {
+                "name": "friends_events",
+                "size": 1,
+                "description": "list of events your friends are attending"
+            },
+            "p17": {
+                "name": "user_events",
+                "size": 1,
+                "description": "list of events you are attending"
+            }
+        },
+        "extended_permissions": {
+            "p1": {
+                "name": "publish_actions",
+                "size": 2,
+                "description": "post content, comments, and likes to your stream and to the streams of your friends"
+            },
+            "p2": {
+                "name": "read_stream",
+                "size": 2,
+                "description": "access all the posts in your News Feed"
+            },
+            "p3": {
+                "name": "user_friendlists",
+                "size": 2,
+                "description": "access any friend lists you have created"
+            }
+        }
+    },
+
+    "app5": {
+
+
+        "name": "secure.me",
+        "url": " https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-prn1/851561_448261991935104_206506830_n.png",
+        "required_permissions": {
+            "p1": {
+                "name": "user_email",
+                "size": 1,
+                "description": "your primary email address"
+            },
+            "p2": {
+                "name": "user_birthday",
+                "size": 1,
+                "description": "your birthday"
+            },
+            "p3": {
+                "name": "user_likes",
+                "size": 1,
+                "description": "list of all the pages you have liked"
+            },
+            "p4": {
+                "name": "user_location",
+                "size": 2,
+                "description": "your current city"
+            },
+            "p5": {
+                "name": "user_photos",
+                "size": 2,
+                "description": "the photos you have uploaded, and photos you have been tagged in"
+            },
+            "p6": {
+                "name": "user_relationships",
+                "size": 2,
+                "description": "your family and personal relationships and relationship status"
+            },
+            "p7": {
+                "name": "user_status",
+                "size": 2,
+                "description": "your status messages"
+            },
+            "p8": {
+                "name": "user_checkins",
+                "size": 2,
+                "description": "read access to your check-ins"
+            },
+            "p9": {
+                "name": "friends_birthday",
+                "size": 1,
+                "description": "your friends birthday "
+            },
+            "p10": {
+                "name": "friends_likes",
+                "size": 1,
+                "description": "list of all of the pages your friends have liked"
+            },
+            "p11": {
+                "name": "friends_location",
+                "size": 2,
+                "description": "your friends current city as the location property"
+            },
+            "p12": {
+                "name": "friends_photos",
+                "size": 2,
+                "description": "your friends photos which you can see"
+            },
+            "p13": {
+                "name": "friends_status",
+                "size": 2,
+                "description": "your friends status messages which you can see"
+            },
+            "p14": {
+                "name": "friends_work_history",
+                "size": 1,
+                "description": "your friends status messages which you can see"
+            },
+            "p15": {
+                "name": "friends_checkins",
+                "size": 2,
+                "description": "your friends check-ins which you can see"
+            },
+            "p16": {
+                "name": "friends_events",
+                "size": 1,
+                "description": "list of events your friends are attending"
+            },
+            "p17": {
+                "name": "user_events",
+                "size": 1,
+                "description": "list of events you are attending"
+            }
+        },
+        "extended_permissions": {
+            "p1": {
+                "name": "publish_actions",
+                "size": 2,
+                "description": "post content, comments, and likes to your stream and to the streams of your friends"
+            },
+            "p2": {
+                "name": "read_stream",
+                "size": 2,
+                "description": "access all the posts in your News Feed"
+            },
+            "p3": {
+                "name": "user_friendlists",
+                "size": 2,
+                "description": "access any friend lists you created"
+            },
+            "p4": {
+                "name": "manage_notifications",
+                "size": 1,
+                "description": "read your notifications and mark them as read"
+            }
+        }
+    }
+}

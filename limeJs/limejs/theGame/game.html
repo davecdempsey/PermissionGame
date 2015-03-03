@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<title>game</title>
+    <!-- <input type="file" id="jsonFile" name="files[]" /> -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../closure/closure/goog/base.js"></script>
+	<script type="text/javascript" src="js/fb_game.js"></script>
+        <script type="text/javascript" src="js/mouseoverEvent.js"></script>
+    <link rel="stylesheet" type="text/css" href="styleSheet.css">
+
+</head>
+
+<body onload="game.popup(true)">
+
+<div id="dialog-overlay"></div>
+<div id="dialog-box">
+    <div class="dialog-content">
+        <div id="dialog-message"></div>
+        <form name="userInput">
+            </p>Name: <input type="text" name="userName"/><br>
+        <a href="#" id="button" class="button" onclick="game.userName">Enter</a>
+
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
